@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>monmodule</name>
+    <displayName><![CDATA[Mon module de commentaires]]></displayName>
+    <version><![CDATA[]]></version>
+    <description><![CDATA[Un module pour ajouter des commentaires et des notes]]></description>
+    <author><![CDATA[J&eacute;r&eacute;my Moreau]]></author>
+    <tab><![CDATA[]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

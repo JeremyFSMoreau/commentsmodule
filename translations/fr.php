@@ -1,0 +1,30 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{commentsmodule}prestashop>commentsmodule_b5b5515d71eb6e8ca6305d0d1b69b98a'] = 'Mon module de commentaires';
+$_MODULE['<{commentsmodule}prestashop>commentsmodule_6738b4b1a9aead49caae35e25faa5e77'] = 'Un module pour ajouter des commentaires et des notes';
+$_MODULE['<{commentsmodule}prestashop>commentsmodule_60cbc06230f539caccf52f62589db470'] = 'Configuration de mon module';
+$_MODULE['<{commentsmodule}prestashop>commentsmodule_758e016a08af42d88ed2a0ee3ce8e1a3'] = 'Activer les notes : ';
+$_MODULE['<{commentsmodule}prestashop>commentsmodule_702bbc0cb6a34960666fa69744cb7738'] = 'Activer les notes sur les produits.';
+$_MODULE['<{commentsmodule}prestashop>commentsmodule_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activé';
+$_MODULE['<{commentsmodule}prestashop>commentsmodule_b9f5c797ebbf55adccdd8539a65a0241'] = 'Désactivé';
+$_MODULE['<{commentsmodule}prestashop>commentsmodule_e4abac67834473cf9b1bfc77db6193bc'] = 'Activer les commentaires :';
+$_MODULE['<{commentsmodule}prestashop>commentsmodule_1ec640473f9052ee2fd69762f256a4f0'] = 'Activer les commentaires sur les produits.';
+$_MODULE['<{commentsmodule}prestashop>commentsmodule_c9cc8cce247e49bae79f15173ce97354'] = 'Sauvegarder';
+$_MODULE['<{commentsmodule}prestashop>list_5f41e9a4f59aa36ac92f59ee29ab36d7'] = 'Commentaires sur le produit';
+$_MODULE['<{commentsmodule}prestashop>list_d4aa5bfb6db48dff52189f536c82ca60'] = 'Retourner à la fiche du produit';
+$_MODULE['<{commentsmodule}prestashop>list_39dc0a0782ffb393efc58acc52eb4d45'] = 'Note de';
+$_MODULE['<{commentsmodule}prestashop>list_f2dd02c02644d60426f61a2fe00f84e1'] = 'Commentaire de';
+$_MODULE['<{commentsmodule}prestashop>list_8868ad5cf3dcee7fbecea08201f78106'] = 'Commentaire et note de';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_34e80a799d144cfe4af46815e103f017'] = 'Avis';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_39dc0a0782ffb393efc58acc52eb4d45'] = 'Note de';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_f2dd02c02644d60426f61a2fe00f84e1'] = 'Commentaire de';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_8868ad5cf3dcee7fbecea08201f78106'] = 'Commentaire et note de';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_0735c83930aa1009c57baa802534b0ed'] = 'Voir tous les commentaires';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_7bc873cba11f035df692c3549366c722'] = '-- Choisissez --';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_ee007c58d8829c9b3d9f38b995b20450'] = 'Notes désactivées';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_1c0a78421a948644c96204c2b7f776a7'] = 'Commentaire :';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_38e0875fe990b47d195e47cb693e833e'] = 'Commentaires désactivés.';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_eb1aebd8abd81cf84faa774d5b9266ae'] = 'Vous devez être connecté si vous voulez évaluer ce produit.';
+$_MODULE['<{commentsmodule}prestashop>displayreassurance_3387d1553a95b5d71c57823f225771f4'] = 'Commentaires et notes désactivés.';
