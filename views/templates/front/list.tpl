@@ -4,11 +4,10 @@
 {block name='page_content'}
     <h1>{l s='Comments on product' mod='commentsmodule'} {$product->name}</h1><br>
     <a href="{$url_product}">{l s='Return to product\'s page' mod='commentsmodule'}</a><br><br>
-    {if $enable_grades eq 1}
-        <h2>Note moyenne : {$moyenne}/5</h2><br>
+    {if $enable_grades eq 1 and $moyenne > 0}
+        <h2>{l s='Note moyenne : ' mod='commentsmodule'} {$moyenne}/5</h2><br>
     {/if}
     <div>
-
         {foreach from=$comments item=commentaire}
             <div class="comment">
                 {if $enable_grades eq 1 and $enable_comments eq 0}
@@ -31,8 +30,6 @@
                 <hr>
             </div>
         {/foreach}
-
-
     </div>
 
     <ul class="pagination">
@@ -56,7 +53,7 @@
     </ul>
     <style>
         .panel_homeLogo{
-            background-image: url('{$link->getImageLink($product_r,$id_image,'large_default')}');
+            background-image: url('{$link->getImageLink($product_r,$id_image,'medium_default')}');
         }
         #logo-background{
             visibility: hidden;

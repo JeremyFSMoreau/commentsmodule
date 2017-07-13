@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
-    <name>monmodule</name>
+    <name>commentsmodule</name>
     <displayName><![CDATA[Mon module de commentaires]]></displayName>
-    <version><![CDATA[]]></version>
+    <version><![CDATA[1.0]]></version>
     <description><![CDATA[Un module pour ajouter des commentaires et des notes]]></description>
-    <author><![CDATA[J&eacute;r&eacute;my Moreau]]></author>
+    <author><![CDATA[Equipe ESGI]]></author>
     <tab><![CDATA[]]></tab>
     <is_configurable>1</is_configurable>
     <need_instance>1</need_instance>

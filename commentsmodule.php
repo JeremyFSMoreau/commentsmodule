@@ -7,7 +7,8 @@ class CommentsModule extends Module
     public function __construct()
     {
         $this->name='commentsmodule';
-        $this->author='Jérémy Moreau';
+        $this->author='Equipe ESGI';
+        $this->version="1.0";
         $this->displayName=$this->l('My comments module');
         $this->description=$this->l('A module for adding comments and notes');
         $this->bootstrap=true;
@@ -36,10 +37,13 @@ class CommentsModule extends Module
 
     public function hookDisplayReassurance($params)
     {
-        $this->processComments();
-        $this->assignConfigValues();
-        $this->assignCommentsFrontOffice();
-        return $this->display(__FILE__,'displayReassurance.tpl');
+        $id_produit=Tools::getValue('id_product');
+        if($id_produit != false) {
+            $this->processComments();
+            $this->assignConfigValues();
+            $this->assignCommentsFrontOffice();
+            return $this->display(__FILE__, 'displayReassurance.tpl');
+        }
     }
 
     public function getContent(){
@@ -172,6 +176,7 @@ class CommentsModule extends Module
         $comments = CommentsModuleComment::getFrontOfficeComments($id_produit);
         $moyenne = CommentsModuleComment::getProductAverageGrade($id_produit);
 
+        $this->context->smarty->assign('id_product',$id_produit);
         $this->context->smarty->assign('moyenne',$moyenne);
         $this->context->smarty->assign('commentaires',$comments);
         $this->context->smarty->assign('logged',$this->context->customer->isLogged());
